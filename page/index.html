@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exp</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../library/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+
+
+    <main id="logopage">
+        <div id="loader">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+    </main>
+
+    <!-- nav tablet and mobile -->
+    <nav id="navs" class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="logo">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portfolio</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul id="ull" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav lg -->
+    <header class="header col-12">
+        <a href="#" class="logo">Portfolio</a>
+        <!--  -->
+
+        <!--  -->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--HOME CONTENT  -->
+    <section class="home col-12" id="home">
+        <div class="home-content col-10 col-md-5">
+            <h3>Hello,It's Me</h3>
+            <h1>Mohammed Abdalla</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I design and develop websites that make people's lives simple.</p>
+            <div class="social-media">
+                <a target="_blank" href="https://www.facebook.com/elkassabym?mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a target="_blank"
+                    href="https://www.linkedin.com/in/mohammed-abdalla-257058252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://www.instagram.com/mohammedabdalla756?igsh=NmplMzhkOGRhMjdv"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://wa.me/1552537398"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a onclick="link3() " class="btn" href="">Download CV</a>
+        </div>
+        <div class="img-home col-10 col-md-5"></div>
+    </section>
+
+    <!--About CONTENT  -->
+    <section class="about col-12" id="about">
+        <!-- <div class="img-about col-10 col-md-5"></div> -->
+        <div class="about-content col-10 col-md-8">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3><span class="multiple-text-about"></span></h3>
+            <p>I am Mohammed, a passionate freelancer from Mansoura, Egypt , bringing you web development and design. My
+                expertise is web applications including full frontend design.</p>
+            <!-- <a href="" class="btn">Read More </a> -->
+        </div>
+
+        <div class="about-information col-12" id="about-information">
+            <div class="about-information-1  col-10 col-md-3">
+                <h3>Part designer</h3>
+                <h1>UI design</h1>
+                <h1>UX design</h1>
+            </div>
+            <img class="about-information-img  col-7 col-md-3" src="../image/pie-chart.png" alt="">
+            <div class="about-information-2  col-10 col-md-3">
+                <h3>Part coder</h3>
+                <h1>HTML / CSS</h1>
+                <h1>JavaScript</h1>
+            </div>
+            <!-- <button type="button" class="btn btn-primary button-modell col-3" data-bs-toggle="modal"
+    data-bs-target="#staticBackdrop11">Skills</button> -->
+
+        </div>
+        <div class="button-model-skills col-12">
+            <button type="button" class="button-modelll btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop11">Skills</button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">My Skills</h1>
+                        <button id="button-model" type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-bodyy">
+
+
+                        <p>Here you will find more information about me, what I do, and my current skills mostly in
+                            terms of programming and technology.</p>
+
+
+
+                        <div class="skills">
+                            <h5 class="col-5 col-md-3">HTML</h5>
+                            <h5 class="col-5 col-md-3">CSS</h5>
+                            <h5 class="col-5 col-md-3">JavaScript</h5>
+                            <h5 class="col-5 col-md-3">GIT</h5>
+                            <h5 class="col-5 col-md-3">Github</h5>
+                            <h5 class="col-6 col-md-4">Responsive Design</h5>
+                            <h5 class="col-5 col-md-3">Bootstrap</h5>
+                            <h5 class="col-5 col-md-3">Figma</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end model -->
+
+
+
+    </section>
+
+    <!-- SERVICE CONTENT -->
+    <section class="service col-12" id="service">
+        <h2 class="heading">Our <span>Service</span></h2>
+        <div class="service-container col-10">
+            <div class="service-box col-10 col-md-4">
+                <h1><i class="fa-solid fa-code"></i></h1>
+                <h3>Frontend Developer</h3>
+                <p>I focused Web Developer building the Frontend of Websites and Web Applications that leads to the
+                    success of the overall product</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop1">Read More</button>
+            </div>
+            <!--  -->
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Frontend Developer</h1>
+                            <button id="button-model" type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <p>I started learning the Frontend about two months ago and I have a passion for learning
+                                and developing more.</p>
+
+                            <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+
+                            <h4>Languages I speak:</h4>
+                            <h5>HTML , CSS , JavaScript</h5>
+                            <h4>Dev Tools:</h4>
+                            <h5>Bootstrap</h5>
+                            <h5>Git</h5>
+                            <h5>Github</h5>
+                            <h5>VSCode</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end model -->
+            <!--  -->
+            <div class="service-box col-10 col-md-4">
+                <h1><i class="fa-solid fa-paintbrush"></i></h1>
+                <h3>UI UX</h3>
+                <p>I focused design of Websites and Applications that leads to the success of the overall product</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop2">Read More</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">UI UX Designer</h1>
+                            <button id="button-model" type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Since beginning my journey as a freelance designer 1 year ago, I've done remote work for
+                                some people. I'm quietly confident, naturally curious, and perpetually working on
+                                improving my chops.</p>
+
+                            <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                            <h4>Things I enjoy designing:</h4>
+                            <h5>UX , UI , Web , Apps</h5>
+                            <h4>Design Tools:</h4>
+                            <h5>Figma</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end model -->
+            <!--  -->
+        </div>
+    </section>
+
+    <!-- PORTFOLIO CONTENT-->
+    <section class="portfolio col-12" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container col-10">
+
+            <div class="portfolio-box col-10 col-md-4">
+                <!-- <img src="../image/create-account-concept-man-registers-social-network_312194-924.jpg" alt=""> -->
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>The application contains courses in various fields to make it easier for students to learn easily
+                        using CSS and HTML</p>
+                    <div onclick="link2()" id="see-portfolio"><a href=""><i class="fa-solid fa-eye"></i></a></div>
+                </div>
+            </div>
+
+            <div class="portfolio-box col-10 col-md-4">
+                <!-- <img src="../image/create-account-concept-man-registers-social-network_312194-924.jpg" alt=""> -->
+                <div class="portfolio-layer">
+                    <h4>UI UX</h4>
+                    <p>The application contains courses in various fields to make it easier for students to learn easily
+                        using Figma</p>
+                    <div onclick="link()" id="see-portfolio"><a href=""><i class="fa-solid fa-eye"></i></a></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FORM -->
+    <div class="FORMM-content col-12" id="contact">
+        <div class="container col-10">
+            <h2>Contact <span>Me!</span></h2>
+            <form id="contactForm" class="col-12 col-md-8">
+                <!-- <label for="name">Name:</label> -->
+                <input type="text" id="name" placeholder="Full Name" name="name" class="item" required>
+
+                <!-- <label for="subject">subject:</label> -->
+                <input type="text" placeholder="Subject" id="subject" name="subject" class="item" required>
+
+                <!-- <label for="email">Email:</label> -->
+                <input type="email" id="email" placeholder="Email Address" name="email" class="item" required>
+
+                <!-- <label for="phone">Mobile Phone:</label> -->
+                <input type="tel" placeholder="Phone Number" id="phone" name="phone" class="item" pattern="[0-9]{10}"
+                    required>
+
+                <!-- <label for="message">Message:</label> -->
+                <textarea id="message" placeholder="Your Message" name="message" rows="4" class="item"
+                    required></textarea>
+
+                <button class=" col-6" type="button" onclick="validateForm() ">Submit</button>
+            </form>
+            <p id="error-message" class="error"></p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer-content" class="footer-content col-12">
+        <div class="footer-content1">
+            <p>Living , learning , & leveling up one day at a time.</p>
+
+            <div onclick="backTOtop()" class="bottom-to-top"><i class="fa-solid fa-jet-fighter-up"></i></div>
+        </div>
+    </footer>
+
+    <!-- JS Src -->
+    <script src="../library/bootstrap.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="../style/index.js"></script>
+
+</body>
+
+</html>
