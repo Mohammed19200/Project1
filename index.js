@@ -31,7 +31,7 @@ function link() {
   window.open('https://www.figma.com/proto/Rjjz3hknx6PL4buHN5hK5M/Application%2C-Faculty-of-Mass-Communication%2C-Cairo-University-wireframe?type=design&node-id=0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A815&show-proto-sidebar=1', '_blank');
 }
 function link2() {
-  window.open("../portfolio FED/pages/home.html", '_blank');
+  window.open("https://courseplatform19.netlify.app/", '_blank');
 }
 function link3() {
   window.open("https://drive.google.com/file/d/1hWrpFDtP7zEFRKK-6gBpNWZnD4Tf1GuJ/view?usp=drive_link", '_blank');
